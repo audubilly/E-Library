@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body{
+            background-image: url("https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        }
+        input{
+            width:200px;
+            height: 50px;
+            color: black;
+            background-color: beige;
+            border-radius: 8px;
+            padding: 5px;
+        }
+        button{
+            border-radius: 10px;
+            margin-top: 10px;
+            color: chocolate;
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+<form action="/book/all" method="get">
+    <div>
+        <h2>Standard E-Library</h2>
+        <h3>Search book below</h3>
+    </div>
+    <div>
+        <label>
+            <input type="search" placeholder="Search" name="bookName">
+        </label>
+    </div>
+    <div>
+        <button type="submit">
+            Submit
+        </button>
+    </div>
+
+</form>
+
+
+</body>
+</html>
